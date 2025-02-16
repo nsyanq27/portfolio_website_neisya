@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neisya's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <script defer src="script.js"></script>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+    <!-- Navbar -->
+    <nav class="fixed w-full bg-gray-800 p-4 flex justify-between items-center z-50">
+        <div class="text-lg font-bold">☰</div>
+        <ul class="hidden md:flex space-x-6">
+            <li><a href="#about" class="hover:text-yellow-400">About</a></li>
+            <li><a href="#services" class="hover:text-yellow-400">Services</a></li>
+            <li><a href="#portfolio" class="hover:text-yellow-400">Portfolio</a></li>
+            <li><a href="#skills" class="hover:text-yellow-400">Skills</a></li>
+            <li><a href="#contact" class="hover:text-yellow-400">Contact</a></li>
+        </ul>
+    </nav>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="h-screen flex flex-col justify-center items-center text-center">
+        <h1 class="text-4xl font-bold" data-aos="fade-up">Hai, Welcome to My Profile</h1>
+    </section>
+
+    <!-- About Me -->
+    <section id="about" class="p-10">
+        <div class="flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2" data-aos="fade-right">
+                <h2 class="text-3xl font-bold">Hi! My Name is Neisya</h2>
+                <p class="text-lg mt-4">Lorem ipsum dolor sit amet, consectetur...</p>
+            </div>
+            <div class="md:w-1/2 mt-6 md:mt-0 flex justify-center" data-aos="fade-left">
+                <img src="profile.svg" alt="Neisya" class="w-64 h-64 rounded-full shadow-lg">
+            </div>
+        </div>
+    </section>
+
+  <!-- Pendidikan -->
+  <section id="services" class="pt-6 pb-10" data-aos="fade-up">
+    <h2 class="text-3xl font-bold text-center" data-aos="fade-up">Education</h2>
+    <div class="grid md:grid-cols-3 gap-6">
+        <!-- SD -->
+        <div class="service text-center bg-gray-800 p-6 rounded-lg" data-aos="fade-right">
+            <div class="services-icon mb-4">
+                <img src="https://vectorseek.com/wp-content/uploads/2023/09/Tut-Wuri-Handayani-Logo-Vector.svg-.png" alt="Logo Tutwuri Handayani" width="48" class="mx-auto">
+            </div>
+            <h4 class="font-bold">State Elementary School Cukur Guling 1 Lumbang Pasuruan (2011-2017)</h4>
+            <p class="text-sm text-gray-400">"I love graphic design because, to me, every color, shape, and element tells a story."</p>
+        </div>
+
+        <!-- SMP -->
+        <div class="service text-center bg-gray-800 p-6 rounded-lg" data-aos="fade-up">
+            <div class="services-icon mb-4">
+                <img src="./images/smp.svg" alt="Logo SMP" width="50" class="mx-auto">
+            </div>
+            <h4 class="font-bold">State Junior High School 2 Winongan, Pasuruan (2017-2020)</h4>
+            <p class="text-sm text-gray-400">"I love graphic design because, to me, every color, shape, and element tells a story."</p>
+        </div>
+
+        <!-- SMK -->
+        <div class="service text-center bg-gray-800 p-6 rounded-lg" data-aos="fade-left">
+            <div class="services-icon mb-4">
+                <img src="./images/smk.svg" alt="Logo SMK" width="50" class="mx-auto">
+            </div>
+            <h4 class="font-bold">Ma'arif NU Prambon Sidoarjo Vocational High School (2020-2023)</h4>
+            <p class="text-sm text-gray-400">"I love graphic design because, to me, every color, shape, and element tells a story."</p>
+        </div>
+    </div>
+
+    <!-- Universitas (Satu Kolom Tengah) -->
+    <div class="mt-6 flex justify-center">
+        <div class="service text-center bg-gray-800 p-6 rounded-lg w-full md:w-1/2" data-aos="zoom-in">
+            <div class="services-icon mb-4">
+                <img src="https://wandabelajar.ac.id/pluginfile.php/1/theme_moove/marketing3icon/1679066273/logo_utm_baru_2021.png" alt="Logo Universitas Trunojoyo Madura" width="50" class="mx-auto">
+            </div>
+            <h4 class="font-bold">Trunojoyo Madura University (2023-2027)</h4>
+            <p class="text-sm text-gray-400">"I love graphic design because, to me, every color, shape, and element tells a story."</p>
+        </div>
+    </div>
+</section>
+
+
+<!-- Pengalaman Kerja -->
+<section id="experience" class="p-10">
+    <h2 class="text-3xl font-bold text-center" data-aos="fade-up">Work Experience</h2>
+    <div class="flex flex-wrap justify-center mt-6">
+        <div class="experience-card">🏢 Perusahaan A</div>
+        <div class="experience-card">🏢 Perusahaan B</div>
+        <div class="experience-card">🏢 Perusahaan C</div>
+    </div>
+</section>
+
+    <!-- Skills -->
+    <section id="skills" class="p-10 bg-gray-800">
+        <h2 class="text-3xl font-bold text-center" data-aos="fade-up">Skills</h2>
+        <div class="flex flex-wrap justify-center mt-4">
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">React</span>
+            <span class="skill-tag">Node.js</span>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="p-10">
+        <h2 class="text-3xl font-bold text-center" data-aos="fade-up">Portfolio</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
+            <img src="project1.jpg" class="portfolio-img" data-aos="zoom-in">
+            <img src="project2.jpg" class="portfolio-img" data-aos="zoom-in">
+            <img src="project3.jpg" class="portfolio-img" data-aos="zoom-in">
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="p-10 bg-gray-800">
+        <h2 class="text-3xl font-bold text-center" data-aos="fade-up">Contact Me</h2>
+        <form class="mt-6 text-center">
+            <input type="text" placeholder="Your Name" class="input-field">
+            <input type="email" placeholder="Your Email" class="input-field">
+            <textarea placeholder="Your Message" class="input-field"></textarea>
+            <button type="submit" class="btn-submit">Send Message</button>
+        </form>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+</html>

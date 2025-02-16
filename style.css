@@ -1,0 +1,71 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.skill-tag {
+    background-color: #ee3c51;
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.portfolio-img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+.portfolio-img:hover {
+    transform: scale(1.05);
+}
+.input-field {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.btn-submit {
+    background-color: #ee3c51;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Style Pengalaman Kerja */
+.experience-card {
+    background-color: #ee3c51;
+    color: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    min-width: 200px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.experience-card:hover {
+    transform: scale(1.05);
+}
+
+/* Style Pendidikan */
+.education-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.education-item {
+    position: relative;
+    padding-left: 30px;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+#services {
+    padding-top: 50px;
+}
